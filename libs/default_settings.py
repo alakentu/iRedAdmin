@@ -97,7 +97,7 @@ HTTP_PROXY = ""
 #   GMT+12:45
 #   GMT+13:00
 #   GMT+14:00
-LOCAL_TIMEZONE = "GMT"
+LOCAL_TIMEZONE = "GMT-04:00"
 
 ###################################
 # RESTful API

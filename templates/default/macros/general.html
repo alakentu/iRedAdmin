@@ -474,7 +474,7 @@
     </div>
 {%- endmacro %}
 
-{% macro display_preferred_language(value='', languagemaps=['en_US'], label=none) -%}
+{% macro display_preferred_language(value='', languagemaps=['es_ES'], label=none) -%}
 <div class="form-field clear">
     {% if label is sameas none %}
         <h4 class="size-250 fl-space">{{ _('Preferred language') }}</h4>
@@ -800,7 +800,7 @@
 </div>
 {%- endmacro %}
 
-{% macro display_add_admin(min_passwd_length='0', max_passwd_length='0', lang='en_US', languagemaps=['en_US']) -%}
+{% macro display_add_admin(min_passwd_length='0', max_passwd_length='0', lang='es_ES', languagemaps=['es_ES']) -%}
             {{ display_input_mail(required=true) }}
 
             <div class="bt-space5">&nbsp;</div>
@@ -816,8 +816,8 @@
 
 
 {% macro display_add_domain(label=false,
-                            preferred_language='en_US',
-                            languagemaps=['en_US'],
+                            preferred_language='es_ES',
+                            languagemaps=['es_ES'],
                             timezones=None) %}
     <div id="domain_add" class="box-wrap clear">
         {% if label %}

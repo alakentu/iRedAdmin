@@ -10,7 +10,7 @@ from libs.default_settings import *
 webmaster = 'zhb@iredmail.org'
 
 # Default language.
-default_language = 'en_US'
+default_language = 'es_ES'
 
 # Database backend: mysql.
 backend = 'mysql'

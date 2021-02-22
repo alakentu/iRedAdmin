@@ -200,7 +200,7 @@ TIMEZONES = {
     "America/Thunder_Bay": "GMT-05:00",
     "America/Toronto": "GMT-05:00",
     "Pacific/Easter": "GMT-05:00",
-    "America/Caracas": "GMT-04:30",
+    "America/Caracas": "GMT-04:00",
     "America/Anguilla": "GMT-04:00",
     "America/Antigua": "GMT-04:00",
     "America/Aruba": "GMT-04:00",
