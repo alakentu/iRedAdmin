@@ -639,7 +639,7 @@ def update(conn, mail, profile_type, form):
         # Get name
         updates['name'] = form.get('cn', '')
 
-        # Get preferred language: short lang code. e.g. en_US, de_DE.
+        # Get preferred language: short lang code. e.g. es_ES, de_DE.
         preferred_language = form_utils.get_language(form)
         if preferred_language in iredutils.get_language_maps():
             updates['language'] = preferred_language
@@ -661,7 +661,7 @@ def update(conn, mail, profile_type, form):
 
         # Update language immediately.
         if session.get('username') == mail and \
-           session.get('lang', 'en_US') != preferred_language:
+           session.get('lang', 'es_ES') != preferred_language:
             session['lang'] = preferred_language
 
         # check account status

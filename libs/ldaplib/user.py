@@ -703,7 +703,7 @@ def update(profile_type, mail, form, conn=None):
                                            value=last_name,
                                            default=username)
 
-        # Get preferred language: short lang code. e.g. en_US, de_DE.
+        # Get preferred language: short lang code. e.g. es_ES, de_DE.
         preferred_language = form_utils.get_language(form)
         # Must be equal to or less than 5 characters.
         if not (preferred_language in iredutils.get_language_maps()):
@@ -713,7 +713,7 @@ def update(profile_type, mail, form, conn=None):
 
         # Update language immediately.
         if session.get('username') == mail and \
-           session.get('lang', 'en_US') != preferred_language:
+           session.get('lang', 'es_ES') != preferred_language:
             session['lang'] = preferred_language
 
         # Update timezone

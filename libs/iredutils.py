@@ -325,7 +325,7 @@ def is_not_negative_integer(s) -> bool:
 
 # Translations
 # Initialize object which used to stored all translations.
-all_translations = {"en_US": gettext.NullTranslations()}
+all_translations = {"es_ES": gettext.NullTranslations()}
 
 
 def ired_gettext(string):
@@ -344,7 +344,7 @@ def ired_gettext(string):
             )
             all_translations[lang] = translation
         except:
-            translation = all_translations["en_US"]
+            translation = all_translations["es_ES"]
 
     return translation.gettext(string)
 

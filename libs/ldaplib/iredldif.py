@@ -75,7 +75,7 @@ def ldif_mailadmin(mail,
     :param passwd: hashed password string
     :param cn: the display name of this admin
     :param account_status: account status (active, disabled)
-    :param preferred_language: short code of preferred language. e.g. en_US.
+    :param preferred_language: short code of preferred language. e.g. es_ES.
     :param is_global_admin: mark this admin as a global admin (yes, no)
     :param account_setting: a dict of per-account settings.
     :param disabled_services: a list/tupe/set of disabled services.
